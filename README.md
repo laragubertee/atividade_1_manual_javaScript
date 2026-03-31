@@ -4,8 +4,6 @@
 # O que é JavaScript.
 JavaScript é uma linguagem de programação que permite a você implementar itens complexos em páginas web, toda vez que uma página da web faz mais do que simplesmente mostrar a você informação estática, mostrando conteúdo que se atualiza em um intervalo de tempo, mapas interativos ou gráficos 2D/3D animados, etc.
 
-
-
 # Para que ele serve.
 Criar conteúdo dinâmico
 Atualizar elementos da página em tempo real
@@ -87,4 +85,39 @@ O operador de Negação inverte o estado( Retorna falso caso o único operando p
 ## diferença entre != e !==.
 != (Diferente): Compara se dois valores são diferentes, mas realiza a coerção de tipo (converte os tipos para comparar).
 !== (Estritamente Diferente): Compara se dois valores são diferentes ou se são de tipos diferentes. Não realiza conversão automática.
+
+# Estruturas condicionais
+As estruturas condicionais são usadas na programação para tomar decisões com base em condições.
+if: Execute um bloco de código se uma condição for verdadeira.
+if...else: Escolher entre dois caminhos, um se a condição for verdadeira, outro se for falsa.
+switch: Usado para comparar uma variável com vários valores.
+
+## Estruturas de repetição
+As estruturas de repetição servem para executar um bloco de código várias vezes.
+for: Usado quando você sabe quantas vezes quer repetir.
+while: Usado quando você não sabe exatamente quantas vezes vai repetir, mas tem uma condição.
+
+
+
+# Funções
+# o que é uma função: 
+Uma função é um bloco de código reutilizável que faz uma tarefa específica.
+# como declarar uma função: 
+É necessário definir um bloco de código reutilizável com um nome, parâmetros e, geralmente, um valor de retorno.
+# como chamar uma função: 
+função (parâmetros);
+# função com parâmetro: 
+Os parâmetros são valores que a função recebe para executar a ação.
+# função com retorno: 
+Termina sua execução e envia um valor de volta para onde foi chamada.
+
+# Referências:
+[title](https://developer.mozilla.org/pt-BR/docs/Learn_web_development/Core/Scripting/What_is_JavaScript);
+[title](https://www.reddit.com/r/eli5_programming/comments/i9j7r1/i_dont_understand_html_css_and_javascript_how_do/?tl=pt-br#:~:text=Do%20jeito%20que%20eu%20entendo%2C%20HTML%20%C3%A9,apar%C3%AAncia%20detalhada%20e%20JavaScript%20%C3%A9%20o%20m%C3%BAsculo%E2%80%A6);
+[title](https://www.freecodecamp.org/news/scope-in-javascript-global-vs-local-vs-block-scope/);
+[title](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Expressions_and_operators);
+[title](https://pt.stackoverflow.com/questions/3186/qual-a-diferen%C3%A7a-entre-operadores-e-em-javascript);
+[title](https://www.javascriptprogressivo.net/?utm_source=chatgpt.com);
+
+
 

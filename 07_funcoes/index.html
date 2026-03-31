@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+ 
+</head>
+<body>
+
+   
+
+    <script>
+    
+        function avisar() {
+            console.log("--- Executando função sem parâmetro ---");
+            console.log("O sistema está rodando perfeitamente!");
+        }
+
+        avisar(); 
+
+
+       
+        function saudacao(nome) {
+            console.log("\n--- Executando função com parâmetro ---");
+            console.log("Olá, " + nome + "! Seja bem-vindo.");
+        }
+
+        saudacao("Carlos"); 
+
+
+        function soma(x, y) {
+            return x + y; 
+            
+        }
+
+        let resultado = soma(5, 3); 
+        console.log("\n--- Executando função com retorno ---");
+        console.log("O resultado da soma de 5 + 3 é: " + resultado);
+
+    </script>
+
+</body>
+</html>
